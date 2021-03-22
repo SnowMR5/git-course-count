@@ -1,8 +1,17 @@
+var count = 0;
+var val = "0x64";
 
-let count = 0;
-let valor = '0x64';
-
-while (count < parseInt(valor)) {
-    count ++;
-    console.log(`Number: ${count}`);
+function clicker() {
+  while (count <= parseInt(val)) {
+    const divN = document.getElementById("insert");
+    paragraph = document.createElement("p");
+    text = document.createTextNode(`Number: ${count}`);
+    paragraph.appendChild(text);
+    divN.appendChild(paragraph);
+    paragraph.setAttribute("id", "pgrap");
+    count++;
+  }
+  setTimeout(() => {
+    location.reload();
+  }, 3000);
 }

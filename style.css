@@ -4,4 +4,45 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     text-align: center;
+    display: block;
+   }
+   #textCont{
+       text-align: center;
+       font-size: 20px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: bold;
+       display: block;
+   }
+   .divN {
+       width: 70%;
+       height: 200px;
+       margin: 100px 200px;
+       border-radius: 5px;
+       border-left: 2px solid #000000;
+       border-bottom: 2px solid #000000;
+       border-right: 2px solid transparent;
+       border-top: 2px solid transparent;
+       overflow: scroll;
+   }
+   #butt{
+       color:#000000;
+       font-size: 15px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: 900;
+       background: deeppink;
+       margin: -5px 300px;
+       width: 30%;
+       padding: 10px;
+       border: 0;
+       border-radius: 5px;
+       outline: none;
+       text-decoration: none;
+       display: block;
+   }
+   #pgrap{
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: block;
    }
