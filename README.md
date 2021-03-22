@@ -1,0 +1,3 @@
+# git-course-count
+Proyecto de prueba con git.
+Un contador simple en javascript...
